@@ -1,6 +1,6 @@
 ---
 name: interview-review-coach
-description: Use when reviewing product manager or AI/education product interviews from transcripts, resumes, JDs, meeting notes, or post-interview self-reflections; especially when the user wants structured debriefs, weakness tracking, follow-up drills, next-round prep, or cross-interview memory updates.
+description: Use when reviewing product manager or AI product interviews from transcripts, resumes, JDs, meeting notes, or post-interview self-reflections; especially when the user wants structured debriefs, weakness tracking, follow-up drills, next-round prep, or cross-interview memory updates.
 ---
 
 # Interview Review Coach
@@ -16,7 +16,7 @@ Use this skill to produce a reusable, evidence-grounded interview debrief for pr
 
 ## Scope And Role Adaptation
 
-This skill is intentionally scoped to product manager interviews, especially AI product and education product roles. For another company or another PM role, keep the skill unchanged and replace only the resume, JD, and interview transcript.
+This skill is intentionally scoped to product manager interviews, especially AI product roles. For another company or another PM role, keep the skill unchanged and replace only the resume, JD, and interview transcript.
 
 When adapting this skill to a non-PM role, keep the file-reading, evidence extraction, debrief, drill, and memory workflow, but replace the role-specific capability model in `references/interview-review-v2.md`:
 
@@ -62,7 +62,6 @@ For an interview task, also read task-local materials:
 - For drills, ask realistic interview questions and wait for the user's answer. Do not attach the model answer immediately.
 - In Socratic drill feedback, identify only the most important issue per turn, then ask a pressure follow-up.
 - For AI product interviews, explicitly separate PM ownership from algorithm/engineering ownership: quality bar, bad-case taxonomy, fallback strategy, user experience standard, and launch criteria belong in PM framing.
-- For education product interviews, check whether the candidate explained the user problem, learning scenario, form factor, evaluation boundary, and measurable effect.
 
 ## Common Failure Modes
 
